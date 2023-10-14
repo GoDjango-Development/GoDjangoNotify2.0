@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GoDjangoNotify20" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/secondaryAlpha</item>
+        <item name="cardBackgroundColor">@color/cardLight</item>
+    </style>
+    <style name="Theme.GoDjangoNotify20" parent="Base.Theme.GoDjangoNotify20" />
+    <style name="SplashStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splach_screen</item>
+    </style>
+</resources>

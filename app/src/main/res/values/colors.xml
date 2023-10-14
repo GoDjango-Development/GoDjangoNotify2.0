@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#FF00796B</color>
+    <color name="secondary">#FF00BFA5</color>
+    <color name="primaryAlpha">#8800796B</color>
+    <color name="secondaryAlpha">#8800BFA5</color>
+    <color name="cardDark">#FF292929</color>
+    <color name="cardLight">#EAEAEA</color>
+    <color name="error">#F44336</color>
+    <color name="onError">#FFCDD2</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.HistoryFragment">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/ivClean"
+            android:src="@drawable/baseline_clear_all_24"
+            android:layout_gravity="end"
+            app:backgroundTint = "@android:color/transparent"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_ticket_history"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/undraw_save_to_bookmarks_re_8ajf"
+        android:padding="50dp"
+        />
+</FrameLayout>
+
+
+
